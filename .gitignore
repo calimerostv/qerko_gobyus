@@ -1,0 +1,22 @@
+# Heslo administrácie pre PHP hosting — nikdy do repozitára.
+api/config.php
+api/dbconfig.php
+api/mailconfig.php
+ftp_email_db.txt
+tools/.deploy_env
+
+# Pracovné a systémové
+.tmp/
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Podklady k návrhu (uložená stránka artifactu)
+Ťapka.html
+Ťapka_files/
+
+# Editory
+.vscode/
+.idea/
+.claude/scheduled_tasks.lock

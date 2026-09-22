@@ -1,0 +1,126 @@
+{
+  "slug": "gobyus",
+  "name": "Gobyus s.r.o.",
+  "subtitle": "Železničná 1031/1, Sereď",
+  "mark": {
+    "type": "text",
+    "text": "GBY",
+    "image": ""
+  },
+  "theme": {
+    "preset": "grafit",
+    "mode": "dark",
+    "font": "dosis",
+    "accent": "#ECB337",
+    "deep": "#202225"
+  },
+  "hours": {
+    "enabled": true,
+    "tz": "Europe/Bratislava",
+    "note": "",
+    "days": [
+      { "closed": false, "ranges": [["09:00", "17:00"]] },
+      { "closed": false, "ranges": [["09:00", "17:00"]] },
+      { "closed": false, "ranges": [["09:00", "17:00"]] },
+      { "closed": false, "ranges": [["09:00", "17:00"]] },
+      { "closed": false, "ranges": [["09:00", "17:00"]] },
+      { "closed": true, "ranges": [["09:00", "17:00"]] },
+      { "closed": true, "ranges": [["09:00", "17:00"]] }
+    ]
+  },
+  "primary": {
+    "enabled": true,
+    "type": "facebook",
+    "title": "Sledovať na Facebooku",
+    "note": "Novinky a akcie",
+    "url": "https://www.facebook.com/Gobyus/"
+  },
+  "sections": [
+    {
+      "title": "Kontaktovať",
+      "layout": "list",
+      "tiles": [
+        {
+          "type": "phone",
+          "title": "Zavolať",
+          "note": "",
+          "value": "+421908763508",
+          "icon": "phone",
+          "hidden": false
+        },
+        {
+          "type": "email",
+          "title": "Napísať e-mail",
+          "note": "",
+          "value": "obchod@gobyus.com",
+          "icon": "mail",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "title": "Sledujte nás",
+      "layout": "list",
+      "tiles": [
+        {
+          "type": "facebook",
+          "title": "Facebook",
+          "note": "",
+          "value": "https://www.facebook.com/Gobyus/",
+          "icon": "b:facebook",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "title": "Podnik",
+      "layout": "list",
+      "tiles": [
+        {
+          "type": "web",
+          "title": "Webová stránka",
+          "note": "",
+          "value": "https://gobyus.com",
+          "icon": "globe",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "title": "Kontakt",
+      "layout": "list",
+      "tiles": [
+        {
+          "type": "navigate",
+          "title": "Navigovať",
+          "note": "",
+          "value": "",
+          "icon": "navigation",
+          "hidden": false
+        },
+        {
+          "type": "vcard",
+          "title": "Uložiť kontakt",
+          "note": "vCard · 1 klik",
+          "value": "",
+          "icon": "users",
+          "hidden": false
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "phone": "+421 908 763 508",
+    "email": "obchod@gobyus.com",
+    "web": "https://gobyus.com",
+    "address": "Železničná 1031/1, 926 01 Sereď",
+    "org": "Gobyus s.r.o."
+  },
+  "footer": {
+    "text": "",
+    "showBrand": false
+  },
+  "seo": {
+    "description": "Gobyus s.r.o. — počítačový obchod v Seredi. Kontakt, otváracie hodiny, Facebook."
+  }
+}
